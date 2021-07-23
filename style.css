@@ -1,0 +1,86 @@
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+.cards{
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
+	border-radius: 50px;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: bold;
+	color: yellow;
+	letter-spacing: 10px;
+	line-height: 80px;
+	text-align: left;
+	transform: translate(30%,200%);
+
+}
+
+li{
+	list-style-type: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#topBanner{
+	display: flex;
+}
+
+h1,#topBanner>h2{
+	position: absolute;
+}
+
+#topBanner>h2{
+	background-color: orange;
+	padding: 20px;
+	border-radius: 20px;
+	transform: translate(55%,1100%);
+}
+
+#row{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h2{
+	padding: 20px;
+	font-size: 200%;
+}
+
+p{
+	color: black;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+a{
+	text-decoration: none;
+}
+
+#navigation{
+	display: flex;
+	justify-content: space-around;
+}
+
+.container{
+	border: 1px solid black;
+}
+
+.col-md-6, .col-sm-12{
+	border: 1px solid black;
+
+}

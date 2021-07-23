@@ -1,0 +1,76 @@
+#banner{
+	width: 100%;
+	position: relative;
+}
+
+h1{
+	font-size: 5rem;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+	position: absolute;
+	top: 40%;
+	left: 5%;
+}
+
+
+#topbanner{
+	display: flex;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (max-width: 900px){
+	body{
+		background-color: lightgray;
+	}
+
+	h1{
+		top: 15%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	body{
+		background-color: lightcyan;
+	}
+
+	h1{
+		display: none;
+	}
+}
+
+#cards{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.image{
+	width: 100%;
+	object-fit: cover;
+}
+
+.container{
+	border: 1px solid black;
+}
+
+.col-md-3{
+	border: 1px solid black;
+}
+
+
+h2{
+	text-align: center;
+	padding: 20px;
+}
+
+.btn-primary{
+	margin: 20px;
+}
+
+#accordion{
+	margin: 50px;
+}
